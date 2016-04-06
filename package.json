@@ -1,5 +1,5 @@
 {
-  "name": "gh-battle",
+  "name": "fx-safeguard",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server",
     "start": "NODE_ENV=production node server.js",
     "prod": "webpack -p",
-    "postinstall": "webpack -p --config webpack.prod.config.js --profile --progress --colors"
+    "postinstall": "webpack -p --config webpack.prod.config.js"
   },
   "author": "Andy Mai",
   "license": "ISC",
