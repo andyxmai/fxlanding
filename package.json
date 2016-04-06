@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server",
     "start": "NODE_ENV=production node server.js",
     "prod": "webpack -p",
-    "postinstall": "webpack -p --config webpack.prod.config.js"
+    "postinstall": "webpack -p --config webpack.prod.config.js --profile --progress --colors"
   },
   "author": "Andy Mai",
   "license": "ISC",
@@ -19,7 +19,8 @@
     "react": "^0.14.6",
     "react-addons-css-transition-group": "^0.14.6",
     "react-dom": "^0.14.6",
-    "react-router": "^2.0.0-rc5"
+    "react-router": "^2.0.0-rc5",
+    "webpack": "^1.12.14"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
