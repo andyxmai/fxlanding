@@ -16,6 +16,7 @@
     "babel-core": "^6.7.4",
     "babel-loader": "^6.2.4",
     "babel-polyfill": "^6.7.4",
+    "babel-preset-react": "^6.5.0",
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "html-webpack-plugin": "^2.15.0",
