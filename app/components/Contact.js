@@ -6,7 +6,7 @@ function Contact ({onSubmitContact, onUpdateName, onUpdateEmail, onUpdateDescrip
     <div id='contact' style={contact}>
       <div style={formHeading}>
         <h2 style={{color: 'white', marginBottom: '25px'}}>Take the first step</h2>
-        <p style={{width: '40%'}}>Working with foreign clients? Dealing with multiple foreign currencies in your business? You are most likely exposed to foreign exchange risks. Contact us to see how we can help you.</p>
+        <p style={{width: '40%'}}>Working with foreign clients? Dealing with multiple foreign currencies in your business? Contact us to see how we can make your business risk-free and improve your bottom line.</p>
       </div>
       {(() => {
         switch (messageType) {
