@@ -3,8 +3,35 @@ export const space = { padding: '15px' }
 export const halfWidth = { width: '45%' }
 export const navbar = {
   height: '60px',
-  background: 'transparent'
+  //background: 'transparent',
+  backgroundColor: 'white',
+  width: '100%',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  position: 'fixed',
+  borderBottom: '1px solid lightgray'
 }
+
+export const navbarListContainer = {
+  display: 'flex',
+  alignSelf: 'flex-end',
+  width: '25%'
+}
+
+export const navbarList = {
+  display: 'flex',
+  alignSelf: 'flex-end',
+  listStyleType: 'none',
+  width: '100%',
+  justifyContent: 'space-around'
+}
+
+export const logoContainer = {
+  alignSelf: 'flex-start',
+  width: '75%'
+}
+
 export const hero = {
   backgroundImage: 'url(../images/stock.png)',
   backgroundSize: 'cover',
@@ -56,10 +83,22 @@ export const transparentButton = {
   borderRadius: '3px'
 }
 
-export const contact = {
+export const team = {
+  padding: '35px 0',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
   backgroundColor: '#65B1AC',
-  color: 'white',
-  padding: '35px 0'
+}
+
+export const teamInfo = {
+  width: '60%',
+  color: 'white'
+}
+
+export const contact = {
+  padding: '35px 0',
 }
 
 export const formHeading = {
