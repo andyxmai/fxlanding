@@ -29,7 +29,8 @@ export const navbarList = {
 
 export const logoContainer = {
   alignSelf: 'flex-start',
-  width: '75%'
+  width: '75%',
+  paddingLeft: '30px'
 }
 
 export const hero = {

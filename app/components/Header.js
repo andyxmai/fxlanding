@@ -8,7 +8,7 @@ function Header () {
   return (
     <div className='container' style={navbar}>
       <div style={logoContainer}>
-        <h3 style={{color: '#65B1AC'}}>FX Risk Management</h3>
+        <h3 style={{color: '#65B1AC'}}>JumpFloat</h3>
       </div>
       <div style={navbarListContainer}>
         <ul style={navbarList}>
