@@ -16,7 +16,7 @@ export const navbar = {
 export const navbarListContainer = {
   display: 'flex',
   alignSelf: 'flex-end',
-  width: '25%'
+  width: '30%'
 }
 
 export const navbarList = {
@@ -29,7 +29,7 @@ export const navbarList = {
 
 export const logoContainer = {
   alignSelf: 'flex-start',
-  width: '75%',
+  width: '70%',
   paddingLeft: '30px'
 }
 
