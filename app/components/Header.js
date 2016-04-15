@@ -15,7 +15,7 @@ function Header () {
           <li><Link href to="firstSection" spy={true} smooth={true} offset={-50} duration={500}>About</Link></li>
           <li><Link href to="team" spy={true} smooth={true} offset={-50} duration={500}>Team</Link></li>
           <li><Link href to="contact" spy={true} smooth={true} offset={-50} duration={500}>Contact</Link></li>
-          <li><a href to="http://blog.jumpfloat.com">Blog</a></li>
+          <li><a href="http://blog.jumpfloat.com">Blog</a></li>
         </ul>
       </div>
     </div>
